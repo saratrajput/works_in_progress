@@ -1,0 +1,25 @@
+Lights:
+Full Lights: DF20D001
+Dim Lights 1: DE21D001
+Dim Lights 2: DE21D001
+Dim Lights 3: DD22D001
+Turn off Lights: DC23D001
+
+Fan:
+Turn On or Off: E01FA306
+Speed Increase: E41BA306
+Timer (Unused): EC13A306
+Resume (Unused): E817A306
+--------------------------------------------------------------------------------
+Lights:NEC
+Full Lights: 800B04FB
+Dim Lights 1: 800B847B
+Dim Lights 2: 800B847B
+Dim Lights 3: 800B44BB
+Turn off Lights: 800BC43B
+
+Fan:NEC
+Turn On or Off: 60C5F807, FFFFFFFF
+Speed Increase: 6C138A4A
+Timer (Unused): 60C5C837
+Resume (Unused): 60C5E817

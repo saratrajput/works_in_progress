@@ -1,0 +1,7 @@
+*.swp
+*.pyc
+*.o
+*/build/
+secure/
+*/.ipynb_checkpoints/*
+*/.vscode/*
