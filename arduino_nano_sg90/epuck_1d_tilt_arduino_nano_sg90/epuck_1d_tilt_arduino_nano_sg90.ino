@@ -17,12 +17,22 @@ void setup()
 
 void loop()
 {
-  servo1.write(0);
-  delay(1000);
-  servo1.write(90);
-  delay(1000);
-  servo1.write(180);
-  delay(1000);
-  servo1.write(90);
+  moveServo(90);
+  moveServo(80);
+  moveServo(70);
+  moveServo(60);
+  moveServo(70);
+  moveServo(80);
+  moveServo(90);
+  moveServo(100);
+  moveServo(110);
+  moveServo(120);
+  moveServo(110);
+  moveServo(100);
+}
+
+void moveServo(int angle)
+{
+  servo1.write(angle);
   delay(1000);
 }
