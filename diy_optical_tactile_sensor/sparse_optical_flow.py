@@ -28,6 +28,7 @@ while True:
     start = time.time()
 
     suc, frame = cap.read()
+    frame = frame[0:300, 0:300]
     frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     img = frame.copy()
 

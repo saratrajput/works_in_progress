@@ -50,6 +50,7 @@ prevgray = cv2.cvtColor(prev, cv2.COLOR_BGR2GRAY)
 while True:
 
     suc, img = cap.read()
+    img = img[0:300, 0:300]
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # start time to calculate FPS
@@ -57,6 +58,7 @@ while True:
 
 
     flow = cv2.calcOpticalFlowFarneback(prevgray, gray, None, 0.5, 3, 15, 3, 5, 1.2, 0)
+    # flow = cv2.calcOpticalFlowFarneback(prevgray, gray, None, 0.5, 15, 15, 3, 5, 1.2, 0)
     
     prevgray = gray
 
